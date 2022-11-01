@@ -5,11 +5,21 @@
 
 # Sample application
 
-This is a sample application exposing a generic API to store data in a JSON field. Data has an id and a name that cab be used to categorize the data you are storing. this can be used to store any JSON data in a simple way. 
+This is a sample application exposing a generic API to store data in a JSON field. Data has an id and a name that cab be used to categorize the data you are storing. this can be used to store any JSON data in a simple way.
 
 This application has been built with Django 3 and DRF and is intended to be used as example in laboratories where we need to store data using a RestFul API.
 
-## Usage
+## Install
+
+1. Run `pipenv install` to install dependencies under a new virtualenv.
+
+2. Open a shell in thenew virtualenv using `pipenv shell`.
+
+3. Create the database using `python app/manage.py migrate`.
+
+4. Start the server using `python app/manage.py runserver`.
+
+## API Usage
 
 This API allow the storage of a JSON payload including a name and a key, e.g.
 
