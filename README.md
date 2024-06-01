@@ -1,7 +1,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b26668c721c44a149e230326ab2758d1)](https://app.codacy.com/manual/wilson.forero/django-api?utm_source=github.com&utm_medium=referral&utm_content=wjfatuan/django-api&utm_campaign=Badge_Grade_Settings)
 [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/5a7dd6be6f954cca8d94a7cd855db5a8)](https://www.codacy.com/manual/wilson.forero/django-api/dashboard?utm_source=github.com&utm_medium=referral&utm_content=wjfatuan/django-api&utm_campaign=Badge_Coverage)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/wjfatuan/django-api)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/softeng-fis-uan/django-api)
 
 # Sample application
 
