@@ -19,6 +19,23 @@ This application has been built with Django 3 and DRF and is intended to be used
 
 4. Start the server using `python app/manage.py runserver`.
 
+## Using Docker
+
+Build the Docker image using the command 
+
+```bash
+docker build -t django-api:latest .
+```
+
+and start a new container using the command:
+
+```bash
+docker run -d -p 8000:8000 django-api 
+```
+
+you should now be able to access the app in the port 8000.
+
+
 ## API Usage
 
 This API allow the storage of a JSON payload including a name and a key, e.g.
