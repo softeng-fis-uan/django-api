@@ -1,0 +1,23 @@
+{
+    "name": "django-api",
+    "dockerComposeFile": [
+        "docker-compose.yml",
+    ],
+    "service": "app",
+    "features": {},
+    "mounts": ["source=${localWorkspaceFolder},target=/django-api,type=bind"],
+    "workspaceFolder": "/django-api",
+    "privileged": true,
+    "shutdownAction": "stopCompose",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode-remote.vscode-remote-extensionpack",
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "streetsidesoftware.code-spell-checker-spanish",
+                "streetsidesoftware.code-spell-checker"
+            ]
+        }
+    }
+}

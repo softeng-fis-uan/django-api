@@ -1,11 +1,11 @@
 # Use the official Python image
-FROM python:3.9-slim
+FROM python:3.11-slim
 
 # Set the working directory in the container
 WORKDIR /django-api
 
 # Update runtime and install pipenv
-RUN apt-get update && apt-get install -y python3-pip libpq-dev gcc && pip3 install pipenv 
+RUN apt-get update && apt-get install -y python3-pip libpq-dev gcc git && pip3 install pipenv 
 
 # Copy the requirements file into the container
 COPY Pipfile* .
