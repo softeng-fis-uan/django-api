@@ -9,11 +9,11 @@ coverage = "*"
 pytest-django = "*"
 
 [packages]
-django = "*"
-djangorestframework = "*"
-psycopg2 = "*"
+django = "5.2.1"
+djangorestframework = "3.16.0"
+psycopg2 = "2.9.10"
 django-heroku = "*"
-gunicorn = "*"
+gunicorn = "22.0.0"
 
 [requires]
 python_version = "3.11"
