@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "4f5cd2d108d1026ca0ca95546fdd115d93c3a0a01875853715de0e022b735b46"
+            "sha256": "767b74d38356c4a68200ba9bb2a4a4f6ac1d800317c9482318375bd4d3460bd3"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -50,12 +50,12 @@
         },
         "djangorestframework": {
             "hashes": [
-                "sha256:bea7e9f6b96a8584c5224bfb2e4348dfb3f8b5e34edbecb98da258e892089361",
-                "sha256:f022ff46613584de994c0c6a4aebbace5fd700555fbe9d33b865ebf173eba6c9"
+                "sha256:89ed713b6dc83e1539f214b7d10808ae19bb8511004beba886225da6d5c9dafa",
+                "sha256:cb0546a7415d5b46c04e0f4fe0a54b2109f4fdd5e83ca773c8c6183a6493d042"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.9'",
-            "version": "==3.16.0"
+            "markers": "python_version >= '3.10'",
+            "version": "==3.17.2"
         },
         "gunicorn": {
             "hashes": [
@@ -93,11 +93,11 @@
         },
         "sqlparse": {
             "hashes": [
-                "sha256:12a08b3bf3eec877c519589833aed092e2444e68240a3577e8e26148acc7b1ba",
-                "sha256:e20d4a9b0b8585fdf63b10d30066c7c94c5d7a7ec47c889a2d83a3caa93ff28e"
+                "sha256:113c35c75365ab9cc9c7231d68c6428fb11c085fc8e9eb1ad659b7ddbf6cd2b9",
+                "sha256:b861c0288ce2fa56209a9a6412d2e066ac664b3873b89c26c9d8415e8e32996f"
             ],
-            "markers": "python_version >= '3.8'",
-            "version": "==0.5.5"
+            "markers": "python_version >= '3.10'",
+            "version": "==0.6.0"
         },
         "typing-extensions": {
             "hashes": [
